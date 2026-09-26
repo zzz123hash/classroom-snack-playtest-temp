@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 320" role="img" aria-label="下课钟响了，饭盒还空着">
+  <g fill="none" stroke="#243444" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M118 258c89 19 188 19 280 0" stroke="#8A6844" opacity=".5"/>
+    <circle cx="344" cy="100" r="65" fill="#F6F0E4"/>
+    <path d="M344 45v8m54 47h-8m-46 54v-8m-54-46h8" stroke-width="6"/>
+    <path d="M317 22l-12-13m78 39 19-11m-110 90-19 11" stroke="#D75A4C" stroke-width="8"/>
+    <path d="M126 139h209c12 0 21 9 21 21v89c0 12-9 21-21 21H126c-12 0-21-9-21-21v-89c0-12 9-21 21-21z" fill="#EAC857"/>
+    <path d="M154 136v-15c0-19 16-34 35-34h83c19 0 35 15 35 34v15" stroke="#8A6844"/>
+    <path d="M105 190h251" stroke="#8A6844"/>
+    <path d="M196 188v27c0 18 14 32 32 32s32-14 32-32v-27" fill="#F6F0E4"/>
+    <path d="M212 226c10-6 21-6 32 0" stroke-width="6"/>
+    <path d="M141 217h34m112 0h34" stroke="#FFF7DB" stroke-width="8"/>
+  </g>
+</svg>

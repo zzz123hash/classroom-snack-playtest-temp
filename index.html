@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#F6F0E4" />
+    <title>课堂偷吃</title>
+    <style>
+      html, body { margin: 0; padding: 0; height: 100%; background: #F6F0E4; overflow: hidden; overscroll-behavior: none; }
+      #game { width: 100%; height: 100%; touch-action: none; -webkit-user-select: none; user-select: none; }
+      #boot-status { position: fixed; z-index: 10; top: 50%; left: 50%; transform: translate(-50%, -50%); box-sizing: border-box; width: min(80vw, 320px); padding: 20px; border: 2px solid #dcb652; background: #fffaf0; color: #243444; font: 600 18px/1.5 system-ui, sans-serif; text-align: center; box-shadow: 4px 5px 0 #745535; }
+      canvas { display: block; }
+    </style>
+    <script type="module" crossorigin src="./assets/index-BYhFfwyW.js"></script>
+  </head>
+  <body>
+    <div id="game"></div>
+    <div id="boot-status" role="status" aria-live="polite">正在打开课堂…</div>
+    <script>
+      // passive runtime-error trap (bounded, read-only diagnostics)
+      window.__pageErrors = [];
+      window.onerror = function (msg, src, line, col, err) {
+        if (window.__pageErrors.length < 10) window.__pageErrors.push(String(msg) + ' @ ' + String(src) + ':' + String(line));
+      };
+    </script>
+  </body>
+</html>
