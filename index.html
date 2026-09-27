@@ -1,23 +1,32 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="theme-color" content="#F6F0E4" />
-    <title>课堂偷吃</title>
+    <title>Classroom Snacks</title>
     <style>
       html, body { margin: 0; padding: 0; height: 100%; background: #F6F0E4; overflow: hidden; overscroll-behavior: none; }
       #game { width: 100%; height: 100%; touch-action: none; -webkit-user-select: none; user-select: none; }
       #boot-status { position: fixed; z-index: 10; top: 50%; left: 50%; transform: translate(-50%, -50%); box-sizing: border-box; width: min(80vw, 320px); padding: 20px; border: 2px solid #dcb652; background: #fffaf0; color: #243444; font: 600 18px/1.5 system-ui, sans-serif; text-align: center; box-shadow: 4px 5px 0 #745535; }
       canvas { display: block; }
+      .leaderboard-name-dialog { box-sizing: border-box; width: min(360px, calc(100vw - 32px)); max-width: none; border: 3px solid #745535; background: #fffaf0; color: #243444; box-shadow: 5px 6px 0 #dcb652; font: 16px/1.45 system-ui, sans-serif; padding: 20px; }
+      .leaderboard-name-dialog::backdrop { background: rgba(25, 39, 51, .72); }
+      .leaderboard-name-dialog h2 { margin: 0 0 10px; font-size: 23px; }
+      .leaderboard-name-dialog p { margin: 0 0 14px; }
+      .leaderboard-name-dialog input { box-sizing: border-box; width: 100%; padding: 11px 12px; border: 2px solid #745535; border-radius: 4px; background: white; color: #243444; font: 18px system-ui, sans-serif; }
+      .leaderboard-name-dialog .name-error { min-height: 22px; margin: 6px 0 10px; color: #b34134; font-weight: 600; }
+      .leaderboard-name-dialog .name-actions { display: flex; gap: 10px; }
+      .leaderboard-name-dialog button { flex: 1; min-height: 44px; border: 2px solid #243444; background: #efe4cf; color: #243444; font: 700 15px system-ui, sans-serif; cursor: pointer; }
+      .leaderboard-name-dialog button[type="submit"] { background: #ebc94e; }
     </style>
     <script>window.__siteAssetPackRequired=true;</script>
     <script src="./assets/art-pack-baaf7d649de1.js"></script>
-    <script type="module" crossorigin src="./assets/index-e1oweMg8.js"></script>
+    <script type="module" crossorigin src="./assets/index-BE0xk_Ih.js"></script>
   </head>
   <body>
     <div id="game"></div>
-    <div id="boot-status" role="status" aria-live="polite">正在打开课堂…</div>
+    <div id="boot-status" role="status" aria-live="polite">Opening the classroom…</div>
     <script>
       // passive runtime-error trap (bounded, read-only diagnostics)
       window.__pageErrors = [];
