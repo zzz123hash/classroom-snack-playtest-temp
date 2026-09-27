@@ -3,9 +3,10 @@
   "sourceBranch": "codex/classroom-core-clarity",
   "sourceHead": "84c24e37ea985dcd113620e2974ca628db33598d",
   "sourceWorktree": "uncommitted final playtest candidate",
-  "entry": "assets/index-CGm5lk5A.js",
-  "entrySha256": "CE12122B4AE891ECDB1E9CC9B4A8FF6F9B8C086350FF87F9F36B3C0EA3304555",
-  "artPack": "assets/art-pack-c0adbbf33988.js",
-  "artPackSha256": "A53A81734F5AB550482B869C4CD90EE10253082FD6DDD110752C9EA6AC17EB30",
+  "entry": "assets/index-e1oweMg8.js",
+  "entrySha256": "2C36D9EC7940AB1A55067EE71C96F42C8233B4037B007C18FCDF1DC001A4A6DF",
+  "artPack": "assets/art-pack-baaf7d649de1.js",
+  "artPackSha256": "263455EC895DB3E928DC5A99D4C2616F99A9280C17C839E1EF254BDB2C398121",
+  "scoreApi": "https://classroom-snack-scores-api.dodabojcuk.workers.dev",
   "scope": "compiled static playtest only"
 }
